@@ -1,0 +1,23 @@
+
+  .flex-container {
+    display: flex;
+    min-height: 100vh;
+    width: 99vw;
+  }
+
+  .flex-column-container {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin-left: 14%;
+  }
+
+  @media (max-width: 480px) {
+    .flex-column-container {
+      width: 100%;
+    }
+
+  .flex-column-container {
+    margin-left: 0%;
+  }
+  }

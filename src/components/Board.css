@@ -1,0 +1,11 @@
+.canvas
+{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+@media (max-width: 480px) {
+    .canvas{
+    flex-direction: column;
+    }
+}
